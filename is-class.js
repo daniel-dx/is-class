@@ -1,5 +1,7 @@
 ;(function (root) {
-  const toString = Function.prototype.toString
+  const toString = function() {
+    return this.toString()
+  };
 
   function fnBody (fn) {
     return toString.call(fn).replace(/^[^{]*{\s*/, '').replace(/\s*}[^}]*$/, '')
