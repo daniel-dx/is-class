@@ -1,5 +1,8 @@
 {
-  "name": "is-class",
+  "name": "@danieldx/is-class",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.9",
   "description": "Check if function is an ES6 class.",
   "main": "is-class.js",

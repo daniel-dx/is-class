@@ -13,6 +13,7 @@ git rm --cached <file>
 *.exe
 *.o
 *.so
+.history
 
 # Packages #
 ############
